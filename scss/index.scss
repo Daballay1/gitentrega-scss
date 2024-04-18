@@ -1,0 +1,118 @@
+
+/* Importar el archivo*/
+@import "utilidades/variable";
+@import "utilidades/mixin";
+
+/* H1, H3, H4. Con color principal de variable*/
+
+h1{
+
+    color: $color-principal ;
+    display: flex;
+}
+
+
+h3{
+
+    color: $color-principal
+}
+
+
+h4{
+
+    color: $color-principal;
+    
+   
+}
+
+/* RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+    }
+    
+    /* estilos generales*/
+
+
+    
+    body {
+    
+        color: $color-principal;
+        background-color: #fdfddb ;
+       
+    
+    }
+    
+    
+    /* estilos de header*/
+    
+    /*Nesting en header, se crea en nav*/
+    
+    header{
+    
+    
+    
+        background-color: wheat;
+        color: #2b2b2b;
+        margin:0px 50px ;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* etiqueta item*/
+        nav{
+         background-color: bisque;
+        color: black;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        
+
+    
+        
+
+        }
+
+
+        
+    
+       
+    
+    }
+
+   
+    
+    header nav{
+    
+        margin-right: 30px;
+    }
+    
+   
+    header img {
+    
+        width: 30%;
+        margin: 20px;
+        
+    }
+    
+    main{
+        @include flex;
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+
+
+    footer{
+
+        @include medidas(400px, 50px, #2b2b2b);
+        @include flex; 
+    }
+

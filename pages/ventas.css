@@ -1,0 +1,62 @@
+/* reset*/
+/* RESET*/
+/* Importar el archivo*/
+/* mixin con parametros*/
+/* mixin sin paramentros*/
+/* etiqueta item*/
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header nav {
+  background-color: bisque;
+  color: black;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+/* estilos */
+body {
+  color: #2b2b2b;
+  background-color: #fdfddb;
+}
+
+main img {
+  width: 60%;
+  margin: 20px;
+}
+
+.unite {
+  background-color: bisque;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+.unite:hover {
+  border-bottom-right-radius: 100%;
+  box-shadow: 2px 3px 5px;
+}
+
+.ejemplo-uno :nth-child(1) {
+  background-color: burlywood;
+}
+
+footer {
+  width: 400px;
+  height: 50px;
+  background-color: antiquewhite; /* aplico propiedad*/
+  color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=ventas.css.map */
